@@ -11,13 +11,11 @@
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git://git@github.com/cu-ecen-aeld/assignment-7-Raj-097.git;protocol=ssh;branch=main \
-           file://0001-Modified-ldd3-makefile.patch \
-           "
+SRC_URI = "git://github.com/cu-ecen-aeld/Building_Example_Driver_Modules.git;protocol=ssh;branch=main"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "6f550e09db79eb270b54794fee666785b7cd2369"
+SRCREV = "f8e32fe2a21e8663f27501f6dd75b5c048fe7eea"
 
 S = "${WORKDIR}/git"
 
